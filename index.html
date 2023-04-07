@@ -8,6 +8,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -152,15 +155,47 @@
 
   <footer>
     <a href="#"><img src="./images/logo.svg" alt="Fylo logo" class="footer-logo"></a>
-    <div class="location">
-      <p><span><img src="./images/icon-location.svg" alt="location logo"></span> <span class="company-meta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span></p>
+    <div class="footer-flex">
+
+      <div class="company-location">
+        <p><span><img src="./images/icon-location.svg" alt="location logo" class="location-logo"></span><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span></p>
+      </div>
+  
+      <ul class="company-contact">
+        <li class="company-meta"><img src="./images/icon-phone.svg" alt="phone logo" class="phone-logo"><span>+1-543-123-4567</span></li>
+        <li class="company-meta"><img src="./images/icon-email.svg" alt="email logo" class="email-logo"><span><a href="mailto:example@fylo.com" class="email-link">example@fylo.com</a></span></li>
+      </ul>
+
+      <ul class="company-links">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+
+      <ul class="company-links">
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+
+      <div class="company-social">
+        <a href="#" class="social-logo" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="social-logo" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="social-logo" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
     </div>
+
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Sikta2002" target="_blank">Sikta Mohanty</a>.
+    </p>
+
   </footer>
+
   <script src="./main.js"></script>
+
 </body>
 </html>
 
-<!-- <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/Sikta2002" target="_blank">Sikta Mohanty</a>.
-    </p> -->
