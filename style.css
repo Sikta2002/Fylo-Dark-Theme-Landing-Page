@@ -268,7 +268,7 @@ footer{
 }
 
 .footer-logo{
-    width: 50%;
+    width: 12em;
 }
 
 .footer-flex{
@@ -278,10 +278,6 @@ footer{
 
 .footer-flex a{
     color: var(--clr-white);
-}
-
-.email-link:hover{
-    text-decoration: underline;
 }
 
 /* Company Location */
@@ -310,12 +306,15 @@ footer{
 }
 
 .phone-logo{
-    width: 5%;
     margin-right: 1.5em;
 }
 
 .email-logo{
     margin-right: 1.5em;
+}
+
+.email-link:hover{
+    text-decoration: underline;
 }
 
 /* Company Links */
@@ -469,31 +468,59 @@ footer{
     }
 
     /*********** Footer *********/
-    /* footer{
+    footer{
         padding: 4em;
     }
 
     .footer-logo{
-        width: 10%;
+        width: 11em;
     }
 
     .footer-flex{
         flex-direction: row;
-        align-items: center;
         justify-content: space-between;
+        align-items: start;
+        margin-top: 2em;
     }
     
+    /* Company Location */
+    .company-location{
+        margin-top: 0em;
+    }
+
     .company-location p{
-        background-color: blueviolet;
-        width: 40%;
+        width: 23em;
         font-size: 1em;
     }
 
+    /* Company Contact */
     .company-contact{
-        margin-right: 2.5em;
-        background-color: blueviolet;
-    } */
+        margin-bottom: 0em;
+    }
 
+    .company-meta{
+        margin-top: 0em;
+    }
+
+    .company-meta:nth-child(2) {
+        line-height: 4em;
+    }
+
+    /* Company Links */
+    .company-links{
+        margin-top: 0em;
+    }
+
+    .company-links li:first-child{
+        line-height: 1em;
+        padding-bottom: 0.6em;
+    }
+
+    /* Company Social */
+    .company-social{
+        margin-top: 0em;
+    }
+    
     /* Attribution */
     .attribution{
         width: auto;
