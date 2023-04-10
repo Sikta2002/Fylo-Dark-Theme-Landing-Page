@@ -293,14 +293,22 @@ nav{
     width: 21.55em;
     border: none;
     border-radius: 2em;
-    color: var(--clr-white);
     margin-bottom: 2em;
     justify-content: center;
+    padding-left: 2.5em;
 }
 
 #email-input::placeholder {
-    color: #e3e1e1;
-    padding-left: 2.5em;
+    color: #979797;
+    opacity: 0.7;
+}
+
+#email-input input::placeholder {
+    color: #000000;
+}
+
+#email-input:focus::placeholder{
+    color: transparent;
 }
 
 .signup-form .btn{
@@ -309,6 +317,10 @@ nav{
     font-size: 1.05em;
 }
 
+#validation-message{
+    font-size: 1.1em;
+    margin: 1.5em 2em 0em 1em;
+}
 /*********** Footer *********/
 footer{
     background-color: var(--very-dark-blue);
@@ -533,10 +545,20 @@ footer{
         width: 32em;
     }
 
+    #email-validation{
+        display: none;
+    }
+
     .signup-form .btn{
         margin-left: 2em;
         padding: 1em 2em;
         font-size: 0.9em;
+    }
+
+    #validation-message{
+        font-size: 1em;
+        text-align: left;
+        margin: 0em 8em 0em 4em;
     }
 
     /*********** Footer *********/
