@@ -2,59 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <!-- Setting the viewport width to the device's width and initial zoom level to 1 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Specifies icon image and title of the webpage -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <!-- Connection to the font server -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Font style and URL for the Google Fonts used in the webpage -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font-awesome styles and URL for the webpage -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- Link for the CSS styles used in the webpage -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
   <header>
-      <!-- Navigation Section -->
-    <!-- <div class="container">
-      <div class="flex"> -->
         <nav class="navbar">
+          
           <a href="#" class="logo">
             <img src="./images/logo.svg" alt="Fylo logo">
           </a>
+
           <ul class="nav-list">
             <li><a href="#" class="nav-link">Features</a></li>
             <li><a href="#" class="nav-link">Team</a></li>
             <li><a href="#" class="nav-link">Sign In</a></li>
           </ul>
+
         </nav>
-      <!-- </div>
-    </div> -->
   </header>
+  
   <main>
     <!-- Secure Location Section -->
     <section class="sl">
-      <!-- <div class="container">
-        <div class="flex"> -->
-          <div class="sl-image">
-            <img src="./images/illustration-intro.png" alt="illustration of people putting files in a folder">
-          </div>
-          <!-- <div class="s1-"></div> -->
-          <div class="sl-info">
-            <h1 class="heading">All your files in one secure location, accessible anywhere.</h1>
-            <p class="sub-heading">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
-          </div>
-          <span class="get-started-btn">
-            <a href="#" class="btn">Get Started</a>
-          </span>
-        <!-- </div> 
-      </div> -->
+
+      <div class="sl-image">
+        <img src="./images/illustration-intro.png" alt="illustration of people putting files in a folder">
+      </div>
+      
+      <div class="sl-info">
+        <h1 class="heading">All your files in one secure location, accessible anywhere.</h1>
+        <p class="sub-heading">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
+      </div>
+      
+      <span class="get-started-btn">
+        <a href="#" class="btn">Get Started</a>
+      </span>
+
     </section>
 
     <!-- Features Section -->
     <section class="features">
+
       <div class="flex">
         <div class="icon"><img src="./images/icon-access-anywhere.svg" alt=""></div>
         <div class="features-info">
@@ -62,6 +73,7 @@
           <p class="features_sub-heading">The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
         </div>
       </div>
+
       <div class="flex">
         <div class="icon"><img src="./images/icon-security.svg" alt=""></div>
         <div class="features-info">
@@ -69,6 +81,7 @@
           <p class="features_sub-heading">2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
         </div>
       </div>
+
       <div class="flex">
         <div class="icon"><img src="./images/icon-collaboration.svg" alt=""></div>
         <div class="features-info">
@@ -76,6 +89,7 @@
           <p class="features_sub-heading">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
         </div>
       </div>
+
       <div class="flex">
         <div class="icon"><img src="./images/icon-any-file.svg" alt=""></div>
         <div class="features-info">
@@ -83,28 +97,31 @@
           <p class="features_sub-heading">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
         </div>
       </div>
+
     </section>
 
     <!-- Productivity Section -->
     <section class="productivity">
+
       <div class="productivity-image">
         <img src="./images/illustration-stay-productive.png" alt="illustration of people holding message cards">
       </div>
+
       <div class="productivity-info">
         <h2>Stay productive, wherever you are</h2>
         <p class="productivity_sub-heading_1">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
         <p class="productivity_sub-heading_2">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
-        <a href="#" class="productivity-link">See how Fylo works
-          <!-- <img src="./images/icon-arrow.svg" alt="illustration of fylo arrow">
-          <img src="./images/icon-arrow-hover.svg" class="pro-arrow" alt="illustration of fylo arrow on hover"> -->
-        </a>
+        <a href="#" class="productivity-link">See how Fylo works</a>
       </div>
+
     </section>
 
     <!-- Team Section -->
     <section class="team">
+
       <article class="quote-box">
         <p class="quote-txt">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+        
         <div class="author">
           <img src="./images/profile-1.jpg" alt="Satish Patel" class="author-img">
           <div class="author-details">
@@ -112,10 +129,13 @@
             <span class="author-title">Founder & CEO, Huddle</span>
           </div>
         </div>
+        
       </article>
 
       <article class="quote-box">
+
         <p class="quote-txt">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+        
         <div class="author">
           <img src="./images/profile-2.jpg" alt="Bruce McKenzie" class="author-img">
           <div class="author-details">
@@ -123,10 +143,13 @@
             <span class="author-title">Founder & CEO, Huddle</span>
           </div>
         </div>
+
       </article>
 
       <article class="quote-box">
+
         <p class="quote-txt">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+        
         <div class="author">
           <img src="./images/profile-3.jpg" alt="Iva Boyd" class="author-img">
           <div class="author-details">
@@ -134,15 +157,19 @@
             <span class="author-title">Founder & CEO, Huddle</span>
           </div>
         </div>
+
       </article>
+
     </section>
 
     <!-- Sign-Up Form Section -->
     <section class="signup">
+
         <div class="signup-info">
           <h1>Get early access today</h1>
           <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
         </div>
+
         <div class="signup-form">
           <form id="form">
             <input type="email" placeholder="email@example.com" id="email-input">
@@ -150,6 +177,7 @@
             <p id="validation-message"></p>
           </form>
         </div>
+
     </section>
 
   </main>
@@ -195,6 +223,7 @@
 
   </footer>
 
+  <!-- Script tag that links to the main.js file used in the webpage -->
   <script src="./main.js"></script>
 
 </body>

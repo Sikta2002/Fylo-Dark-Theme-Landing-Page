@@ -1,3 +1,4 @@
+/* Defining custom colors using HSL color model */
 :root{
     --clr-white: hsl(0, 0%, 100%);
     --clr-grey:hsl(0, 0%, 80%);
@@ -9,6 +10,8 @@
     --dark-grey-blue: hsl(219, 30%, 18%);
 }
 
+/* Global box-sizing property to all elements, 
+   margin & padding set to 0 to avoid unwanted spacing */
 *,
 *::after,
 *::before{
@@ -418,6 +421,11 @@ footer{
     text-decoration: none;
 }
 
+/* Scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
 /*********** Media Queries  *********/
 
 @media(min-width: 62.5em){
@@ -454,7 +462,8 @@ footer{
     /*********** Secure Location *********/
     .sl{
         position: relative;
-        background: url("./images/bg-curvy-mobile.svg") no-repeat left top, linear-gradient(var(--grey-blue) 90%, var(--dark-blue) 10%);
+        background: url("./images/bg-curvy-mobile.svg") no-repeat left top, 
+                    linear-gradient(var(--grey-blue) 90%, var(--dark-blue) 10%);
         background-size: 120%;
         background-position: bottom;
         background-repeat: no-repeat;
@@ -618,5 +627,28 @@ footer{
     /* Attribution */
     .attribution{
         width: auto;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar-track{
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color: transparent;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar{
+        display: block;
+        width: 0.625rem;
+        background-color: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background-image: -webkit-gradient(linear,
+                                        left bottom,
+                                        left top,
+                                        color-stop(0.44, hsl(206, 50%, 30%)),
+                                        color-stop(0.72, hsl(218, 28%, 20%)),
+                                        color-stop(0.86, hsl(219, 60%, 20%)));                                        
     }
 }
