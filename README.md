@@ -1,11 +1,12 @@
 <h1 align="center">The Fylo dark theme landing page</h1>
 
 <div align="center">
-    <a href="https://sikta2002.github.io/Fylo-Dark-Theme-Landing-Page/" target="_blank">Live</a>
-    | <a href="https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-using-html-css-and-vanilla-js-ocxGwdw9st" target="_blank">Solution</a>
-    | <a href="https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd" target="_blank">Challenge</a>
-   
-    Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/)
+	
+[Live](https://sikta2002.github.io/Fylo-Dark-Theme-Landing-Page/)
+| [Solution](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-using-html-css-and-vanilla-js-ocxGwdw9st)
+| [Challenge](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd)
+
+Solution to the challenge by [frontendmentor.io](https://www.frontendmentor.io/)
 </div>
 
 <div align="center">
