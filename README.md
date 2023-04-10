@@ -4,7 +4,7 @@
     <a href="https://sikta2002.github.io/Fylo-Dark-Theme-Landing-Page/" target="_blank">Live</a>
     | <a href="#">Solution</a>
     | <a href="https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd" target="_blank">Challenge</a>
-    <p align="center">Solution to the 'Fylo dark theme landing page challenge' on <a href="https://www.frontendmentor.io/" target="_blank">frontendmentor.io</a>.</p>
+    <p align="center" style="margin-top: 3em">Solution to the 'Fylo dark theme landing page challenge' on <a href="https://www.frontendmentor.io/" target="_blank">frontendmentor.io</a>.</p>
 </div>
 
 <img src="https://raw.githubusercontent.com/Sikta2002/Fylo-Dark-Theme-Landing-Page/master/design/Preview-own.jpg" alt="The Fylo dark theme landing page">
